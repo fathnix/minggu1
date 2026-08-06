@@ -1,0 +1,17 @@
+{
+    "name": "fatih/kedua",
+    "description": "Belajar Kedua Saya",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fatih\\Kedua\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fathnix",
+            "email": "mhmd.fatih2106@gmail.com"
+        }
+    ],
+    "require": {}
+}

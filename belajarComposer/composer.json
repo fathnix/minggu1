@@ -1,0 +1,17 @@
+{
+    "name": "fatih/belajar-composer",
+    "description": "Belajar Composer Pertama",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fatih\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fathnix",
+            "email": "mhmd.fatih2106@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,10 @@
+## 📌 Rangkuman Kegiatan Utama
+
+**Pengembangan Aplikasi To-Do List Berbasis PHP & MySQL (Persistensi Data)**
+
+Mengembangkan aplikasi manajemen tugas (*To-Do List*) dari tahap dasar menggunakan CLI PHP (penyimpanan sementara di memori/*array*) hingga terintegrasi dengan database relasional MySQL untuk memastikan seluruh data tugas tersimpan secara permanen dan aman.
+
+**Cakupan Kegiatan:**
+
+* **Logika Aplikasi (Backend PHP):** Membangun antarmuka berbasis teks dengan kontrol alur berupa *loops* (perulangan) dan *switch-case* (percabangan), serta validasi *error handling* untuk input pengguna.
+* **Manajemen Data (Database MySQL):** Merancang skema tabel relasional dan mengimplementasikan perintah SQL dasar untuk operasi CRUD (*Create, Read, Update, Delete*).
