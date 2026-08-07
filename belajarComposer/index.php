@@ -18,4 +18,3 @@ if(($user->verif) === 'y'){
 }else{
     echo "...";
 }
-

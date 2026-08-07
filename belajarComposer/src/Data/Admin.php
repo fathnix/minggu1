@@ -6,7 +6,7 @@ class Admin extends People{
     public $verif;
 
     public function Dashboard(){
-        echo "Selamat Datang di Dashboard Admin";
+        echo "Selamat Datang di Dashboard Admin" . PHP_EOL;
     }
 
     public function admin(){
