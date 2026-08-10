@@ -3,7 +3,7 @@
 $host = 'localhost';
 $usn = 'root';
 $pw = '12';
-$db = 'first';
+$db = 'db_list_tugas';
 
 try{
     $conn = new PDO ("mysql:host=$host;dbname=$db", $usn, $pw);
