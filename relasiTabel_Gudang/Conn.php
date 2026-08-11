@@ -1,20 +1,13 @@
 <?php
 
-class Conn{
-    private $host = "localhost";
-    private $db = "db_gudang_app";
-    private $usn = "root";
-    private $pw = "12";
-    public $conn;
+$host = 'localhost';
+$dbname = 'db_gudang_app';
+$dbuser = 'root'; // Sesuaikan dengan user phpmyadmin kamu
+$dbpass = '12';     // Sesuaikan dengan password phpmyadmin kamu (biasanya kosong)
 
-    public function getConnect(){
-        $this->conn = new mysqli($this->host, $this->usn, $this->pw, $this->db);
-
-        if($this->conn->connect_error){
-            die ("Koneksi db gagal" . $this->conn->connect_error . PHP_EOL);
-        }
-
-        return $this->conn;
-    }
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $dbuser, $dbpass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Koneksi Database Gagal: " . $e->getMessage() . "\n");
 }
-
